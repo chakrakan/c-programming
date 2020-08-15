@@ -82,8 +82,26 @@ void print_card(card_t c) {
 card_t card_from_letters(char value_let, char suit_let) {
   card_t temp;
   int value = (int)(value_let - '0');
-  if (value >= 2 && value <= 14) {
+  if (value >= 2 && value <= 9) {
     temp.value = value;
+  } else {
+    switch(value) {
+    case 0:
+      temp.value = 10;
+      break;
+    case 26:
+      temp.value = VALUE_JACK;
+      break;
+    case 27:
+      temp.value = VALUE_KING;
+      break;
+    case 33:
+      temp.value = VALUE_QUEEN;
+      break;
+    case 17:
+      temp.value = VALUE_ACE;
+      break;
+    }
   }
   switch(suit_let) {
   case 's':
