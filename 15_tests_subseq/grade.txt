@@ -1,0 +1,63 @@
+Grading at Tue Sep 15 00:33:03 UTC 2020
+**Testing broken implementation 10 **
+-------------------------------------
+
+Failed negative elements
+
+**Testing broken implementation 11 **
+-------------------------------------
+
+Failed same elements
+
+**Testing broken implementation 1 **
+-------------------------------------
+
+Failed same elements
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+Failed two contiguos same length
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+Failed two contiguos same length
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+Failed empty array
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+Failed two contiguos same length
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+Failed same elements
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+Failed sudden increase
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+Failed sudden increase
+
+**Testing broken implementation 9 **
+-------------------------------------
+
+Failed two contiguos same length
+
+**Testing correct implementation **
+-------------------------------------
+
+
+All test programs were handled correctly
+
+Overall Grade: PASSED
